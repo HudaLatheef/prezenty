@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:prezenty/pages/mycards.dart';
+import 'package:prezenty/pages/OTPVerification.dart';
+import 'package:prezenty/pages/login.dart';
 import 'package:prezenty/pages/signup.dart';
 
 
@@ -24,7 +25,7 @@ class HomePage extends StatelessWidget {
           home: Scaffold(
               body: Stack(
             children:  [
-              MyCards(),
+              Signup(),
             ],
           ))),
     );
