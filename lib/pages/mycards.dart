@@ -183,7 +183,7 @@ class _MyCardsState extends State<MyCards> with TickerProviderStateMixin {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 16, right: 16),
-                child: Container(
+                child: SizedBox(
                   height: 0.7.sh,
                   child: TabBarView(
                       physics: NeverScrollableScrollPhysics(),
